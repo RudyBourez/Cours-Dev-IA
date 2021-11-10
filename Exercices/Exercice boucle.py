@@ -8,8 +8,8 @@
 #canari 4
 #canari 5
 
-""" for i in range(1,6):
-    print(f'canari {i}') """
+for i in range(1,6):
+    print(f'canari {i}')
 
 
 # Exercice 2
@@ -41,7 +41,7 @@ si la personne répond autre chose le programme pose comme question: "Mais non t
 si la personne répond "tu es lourd" enfin le programme s'arrete """
 
 
-""" answer = input("Si repete et pepete sont dans un bateau, pepete tombe à l'eau, qu'est ce qui reste?  ")
+answer = input("Si repete et pepete sont dans un bateau, pepete tombe à l'eau, qu'est ce qui reste?  ")
 end_program = False
 
 while not end_program:
@@ -51,24 +51,24 @@ while not end_program:
         answer = input("Mais non tu comprends pas, si repete et pepete sont dans un bateau, pepete tombe à l'eau, qu'est ce qui reste ?  ")
     else:
         end_program = True
-         """
+
     
 #Exercice 3
 
 # Même exercice que le deux mais en utilisant break
 
-""" while not end_program:
+while not end_program:
     if answer == "repète":
         answer = input("Si repete et pepete sont dans un bateau, pepete tombe à l'eau, qu'est ce qui reste?  ")
     elif answer != "tu es lourd":
         answer = input("Mais non tu comprends pas, si repete et pepete sont dans un bateau, pepete tombe à l'eau, qu'est ce qui reste ?  ")
     else:
         break
-     """
+
 
 # Exercice 4
 
-""" print("Quels nombres voulez-vous additionner ?")
+print("Quels nombres voulez-vous additionner ?")
 program = True
 
 a = input("Saisissez votre premier nombre    ")
@@ -85,7 +85,7 @@ while program:
 
         print("Veuillez saisir des nombres valides    ")
         a = input("Saisissez votre premier nombre    ")
-        b = input("Saisissez votre deuxième nombre    ") """
+        b = input("Saisissez votre deuxième nombre    ")
     
 # Mini projet
 
