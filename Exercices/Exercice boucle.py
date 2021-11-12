@@ -1,36 +1,39 @@
 # Exercice 1
 
-#Ecrire la boucle for in range qui a la sortie suivante:
+""" Ecrire la boucle for in range qui a la sortie suivante: """
 
-#canari 1
-#canari 2
-#canari 3
-#canari 4
-#canari 5
+"""
+canari 1
+canari 2
+canari 3
+canari 4
+canari 5
+"""
 
 for i in range(1,6):
     print(f'canari {i}')
 
+print("------------------------------------------------")
 
 # Exercice 2
 
-#Utilisez une boucle et la fonction "range" pour calculer la somme des 100 premier entier naturel
-#Utilisez la boucle while pour calculer le produit des 100 premiers entier naturel
+"""
+Utilisez une boucle et la fonction "range" pour calculer la somme des 100 premier entier naturel
+Utilisez la boucle while pour calculer le produit des 100 premiers entier naturel
+"""
 
 somme = 0
-
 for i in range(1, 101):
     somme += i
 
 
 b = 1
 produit = 1
-
 while b < 101:
     produit *= b
     b += 1
 
-
+print("------------------------------------------------")
 
 #Exercice 2:
 
@@ -52,10 +55,11 @@ while not end_program:
     else:
         end_program = True
 
-    
+print("------------------------------------------------")
+
 #Exercice 3
 
-# Même exercice que le deux mais en utilisant break
+"""Même exercice que le deux mais en utilisant break"""
 
 while not end_program:
     if answer == "repète":
@@ -65,8 +69,11 @@ while not end_program:
     else:
         break
 
+print("------------------------------------------------")
 
 # Exercice 4
+
+"""Ecrire un programme qui permet d'additioner les deux chiffres saisis par l'utilisateur"""
 
 print("Quels nombres voulez-vous additionner ?")
 program = True
@@ -86,8 +93,13 @@ while program:
         print("Veuillez saisir des nombres valides    ")
         a = input("Saisissez votre premier nombre    ")
         b = input("Saisissez votre deuxième nombre    ")
-    
+
+print("------------------------------------------------")
+
 # Mini projet
+
+"""Creer une liste de course permettant d'effectuer toutes les options nécessaires à son utilisation"""
+
 
 liste_course = ["poisson", "laitue", "poulet", "pommes", "poire", "lapin"]
 program = True

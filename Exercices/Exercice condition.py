@@ -1,4 +1,5 @@
 # Exercice 1 
+
 a = True
 b = False
 c = True
@@ -13,6 +14,7 @@ else:
     x = 7
 
 print(x)
+print("------------------------------------------------")
 
 # Exercice 2
 
